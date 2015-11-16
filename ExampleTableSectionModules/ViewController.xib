@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="ExampleTableSectionModules" customModuleProvider="target">
+            <connections>
+                <outlet property="baseTableView" destination="gvx-ZM-oni" id="Sad-Su-Cws"/>
+                <outlet property="view" destination="iN0-l3-epB" id="ygg-5X-jeg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gvx-ZM-oni">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="61L-qp-xCO"/>
+                        <outlet property="delegate" destination="-1" id="aFB-QN-FiQ"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="gvx-ZM-oni" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Dj6-OK-YHP"/>
+                <constraint firstAttribute="trailing" secondItem="gvx-ZM-oni" secondAttribute="trailing" id="Zak-S8-LWl"/>
+                <constraint firstAttribute="bottom" secondItem="gvx-ZM-oni" secondAttribute="bottom" id="o9n-mh-LjP"/>
+                <constraint firstItem="gvx-ZM-oni" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="sZ2-ku-hu1"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

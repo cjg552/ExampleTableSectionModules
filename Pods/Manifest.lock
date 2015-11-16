@@ -5,6 +5,6 @@ DEPENDENCIES:
   - TableSectionModules
 
 SPEC CHECKSUMS:
-  TableSectionModules: 6969b9a6a17cd18fb00668269160c121acd4fddb
+  TableSectionModules: d7531bfaee094c64fbd491c30c47c6f55a32ff7a
 
 COCOAPODS: 0.39.0

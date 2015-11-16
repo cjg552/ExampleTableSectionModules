@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5F98E297C85EE220D77E2CC5E120F4E8D5482F27",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0BC6BDBC5D6ECE6BAE45AB004572118619BD26E1" : 0,
+    "5F98E297C85EE220D77E2CC5E120F4E8D5482F27" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9A555101-F50C-4F26-A5E1-A5888436D829",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0BC6BDBC5D6ECE6BAE45AB004572118619BD26E1" : "..\/TableSectionModules",
+    "5F98E297C85EE220D77E2CC5E120F4E8D5482F27" : "ExampleTableSectionModules\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ExampleTableSectionModules",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ExampleTableSectionModules.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cjg552\/TableSectionModules.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0BC6BDBC5D6ECE6BAE45AB004572118619BD26E1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cjg552\/ExampleTableSectionModules.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5F98E297C85EE220D77E2CC5E120F4E8D5482F27"
+    }
+  ]
+}

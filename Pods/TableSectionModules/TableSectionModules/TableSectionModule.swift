@@ -14,16 +14,23 @@ public class TableSectionModule: NSObject {
     public var section:NSInteger!
     
     public init(tableView:UITableView, section:NSInteger) {
-        self.tableView = tableView;
+        super.init()
+        self.tableView = tableView
         self.section = section
+        
+        self.registerViews()
     }
     
     public func heightForHeader() -> CGFloat {
-        return 1;
+        return CGFloat.min;
     }
     
     public func heightForFooter() -> CGFloat {
-        return 15;
+        return CGFloat.min;
+    }
+    
+    public func registerViews() {
+    
     }
     
     public func viewForHeader() -> UIView {

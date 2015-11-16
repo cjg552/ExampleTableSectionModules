@@ -6,6 +6,6 @@ source 'https://github.com/cjg552/TableSectionModules.git'
 use_frameworks!
  
 target 'ExampleTableSectionModules' do
-  pod 'TableSectionModules'
+    pod 'TableSectionModules'
 end
 

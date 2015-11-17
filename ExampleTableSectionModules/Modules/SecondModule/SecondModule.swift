@@ -11,6 +11,14 @@ import TableSectionModules
 
 class SecondModule: TableSectionModule {
     
+    override func registerViews() {
+        super.registerViews()
+        
+        let exampleReuseIdentifier = SecondExampleCell.reuseIdentifier()
+        let cellNib = UINib(nibName: exampleReuseIdentifier, bundle: nil)
+        self.tableView.registerNib(cellNib, forCellReuseIdentifier: exampleReuseIdentifier)
+    }
+    
     override func numberOfRows() -> NSInteger {
         return 5
     }
@@ -25,10 +33,8 @@ class SecondModule: TableSectionModule {
     }
     
     func createSecondExampleCell(row: NSInteger) -> SecondExampleCell {
-        var exampleCell: SecondExampleCell? = self.tableView.dequeueReusableCellWithIdentifier(SecondExampleCell.reuseIdentifier()) as? SecondExampleCell
-        if exampleCell == nil {
-            exampleCell = SecondExampleCell.cellFromNib() as? SecondExampleCell
-        }
+        let exampleCell: SecondExampleCell? = self.tableView.dequeueReusableCellWithIdentifier(SecondExampleCell.reuseIdentifier(), forIndexPath: NSIndexPath(forRow: row, inSection: self.section)) as? SecondExampleCell
+        
         exampleCell?.optionLabel.text = String(format: "Example title cell %i section %i", arguments: [row,self.section])
         return exampleCell!
     }

@@ -1,10 +1,10 @@
 PODS:
-  - TableSectionModules (1.0.3)
+  - TableSectionModules (1.0.5)
 
 DEPENDENCIES:
   - TableSectionModules
 
 SPEC CHECKSUMS:
-  TableSectionModules: d7531bfaee094c64fbd491c30c47c6f55a32ff7a
+  TableSectionModules: 7f92916823b5fafa6ecf5a6f7eaf32715ca859c0
 
 COCOAPODS: 0.39.0

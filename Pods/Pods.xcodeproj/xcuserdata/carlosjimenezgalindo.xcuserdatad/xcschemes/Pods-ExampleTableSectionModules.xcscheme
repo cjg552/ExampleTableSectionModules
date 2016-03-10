@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D4BC8D7D353AA42588C45C29'
+               BlueprintIdentifier = 'B6067D8D2C4CB5922C188CC0'
                BlueprintName = 'Pods-ExampleTableSectionModules'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_ExampleTableSectionModules.framework'>

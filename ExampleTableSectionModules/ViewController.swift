@@ -22,13 +22,13 @@ class ViewController: BaseViewController {
     }
     
     override func configureTableSectionModules() {
-        self.tableSectionModules = []
+        super.configureTableSectionModules()
         
-        let firstModule: FirstModule = FirstModule(tableView: self.baseTableView!,section: self.tableSectionModules!.count)
-        self.tableSectionModules?.append(firstModule)
+        let firstModule: FirstModule = FirstModule(tableView: self.baseTableView!)
+        self.appendModule(firstModule)
         
-        let secondModule: SecondModule = SecondModule(tableView: self.baseTableView!,section: self.tableSectionModules!.count)
-        self.tableSectionModules?.append(secondModule)
+        let secondModule: SecondModule = SecondModule(tableView: self.baseTableView!)
+        self.appendModule(secondModule)
     }
 
 
